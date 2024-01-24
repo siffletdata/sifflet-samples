@@ -1,0 +1,13 @@
+kind: Monitor
+version: 1
+name: Team A monitor
+description: Monitors handled by teamB
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: FieldUniqueness
+  field: creationTimestamp
+id: 1a354b55-e497-4133-8a6a-07ff3dc46f75
+datasets:
+- id: 8a2b4d32-444d-4207-aab2-203ad15ed740

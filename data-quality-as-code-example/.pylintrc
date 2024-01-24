@@ -1,0 +1,2 @@
+[pylint.messages_control]
+disable=C0114,C0115,C0116,E0401

@@ -1,0 +1,12 @@
+kind: Monitor
+version: 1
+name: Team A monitor
+description: Monitors handled by teamB
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: Completeness
+id: 09f4675b-77b8-4a81-860d-c571d5ab9e8c
+datasets:
+- id: 8a2b4d32-444d-4207-aab2-203ad15ed740

@@ -1,0 +1,16 @@
+datasets:
+  - dataset: 8a2b4d32-444d-4207-aab2-203ad15ed740
+    monitors:
+      - identifier: monitor 1
+        parameters:
+          kind: "Freshness"
+      - identifier: monitor 2
+        parameters:
+          kind: "Completeness"
+      - identifier: monitor 3
+        parameters:
+          kind: "Duplicates"
+      - identifier: monitor 4
+        parameters:
+          kind: "FieldUniqueness"
+          field: "creationTimestamp"

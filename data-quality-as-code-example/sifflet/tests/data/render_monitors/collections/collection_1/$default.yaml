@@ -1,0 +1,7 @@
+kind: Monitor
+version: 1
+name: "Team A monitor"
+description: "Monitors made with DQAC for LU"
+incident:
+  severity: Low
+  message: test message incident

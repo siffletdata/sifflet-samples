@@ -1,0 +1,13 @@
+kind: Monitor
+version: 1
+name: Team A monitor
+description: Monitors handled by teamA
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: Completeness
+  whereStatement: ARRAY_LENGTH(scoring) <> 0
+id: 6a65c31f-8ef5-4015-9f78-e66d8b71fee5
+datasets:
+- id: 8e231c3c-5629-49a0-9b92-37d5154d3f6b

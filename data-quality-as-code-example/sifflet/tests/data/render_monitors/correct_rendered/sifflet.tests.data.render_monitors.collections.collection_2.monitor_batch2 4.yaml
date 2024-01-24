@@ -1,0 +1,13 @@
+version: 1
+kind: Monitor
+name: test monitor
+description: Monitors made with DQAC for test
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: FieldUniqueness
+  field: basketReference
+id: 0922dde5-01f1-449f-9f66-df517cdc8116
+datasets:
+- id: 6a6018c2-63a8-41c8-8f90-fa5f5b1d030c

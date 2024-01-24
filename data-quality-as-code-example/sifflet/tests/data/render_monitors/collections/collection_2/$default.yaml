@@ -1,0 +1,7 @@
+version: 1
+kind: Monitor
+name: "test monitor"
+description: "Monitors made with DQAC for test"
+incident:
+  severity: Low
+  message: test message incident

@@ -1,0 +1,20 @@
+datasets:
+  - dataset: 8e231c3c-5629-49a0-9b92-37d5154d3f6b
+    monitors:
+      - identifier: monitor 1
+        parameters:
+          kind: "Freshness"
+      - identifier: monitor 2
+        parameters:
+          kind: "Completeness"
+      - identifier: monitor 3
+        incident:
+          severity: High
+        parameters:
+          kind: "Duplicates"
+      - identifier: monitor 5
+        parameters:
+          kind: "Completeness"
+          whereStatement: "ARRAY_LENGTH(scoring) <> 0"
+      
+        

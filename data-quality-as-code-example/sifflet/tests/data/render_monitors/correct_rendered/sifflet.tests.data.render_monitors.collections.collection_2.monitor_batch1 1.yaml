@@ -1,0 +1,12 @@
+version: 1
+kind: Monitor
+name: test monitor
+description: Monitors made with DQAC for test
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: Freshness
+id: f9878204-8d17-44f5-8327-a7699bf08cb7
+datasets:
+- id: c8a95817-c7b3-427a-9350-136438b5df4b

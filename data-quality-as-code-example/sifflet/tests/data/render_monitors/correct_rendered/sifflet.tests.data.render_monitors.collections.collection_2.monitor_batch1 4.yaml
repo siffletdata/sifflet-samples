@@ -1,0 +1,13 @@
+version: 1
+kind: Monitor
+name: test monitor
+description: Monitors made with DQAC for test
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: FieldUniqueness
+  field: siteRdo
+id: e152c01e-53e5-4502-81b3-b457db925ece
+datasets:
+- id: c8a95817-c7b3-427a-9350-136438b5df4b

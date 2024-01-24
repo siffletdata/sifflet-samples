@@ -1,0 +1,10 @@
+datasets:
+- dataset: fcc34946-9ef5-438f-9473-99ab692cdac7
+  monitors:
+  - identifier: test_identifier
+    name: '[DQAC] Freshness_for_fcc34946-9ef5-438f-9473-99ab692cdac7'
+    parameters:
+      kind: Freshness
+      timeWindow:
+        duration: P1D
+        field: creationTimestamp

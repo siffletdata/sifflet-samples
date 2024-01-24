@@ -1,0 +1,4 @@
+collections:
+  - add_monitor_without_file
+  - update_monitor_with_update_monitor_flag
+  - update_monitor_without_update_monitor_flag

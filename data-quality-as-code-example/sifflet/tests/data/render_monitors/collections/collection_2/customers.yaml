@@ -1,0 +1,18 @@
+datasets:
+  - dataset: c8a95817-c7b3-427a-9350-136438b5df4b
+    monitors:
+      - identifier: monitor_batch1 1
+        parameters:
+          kind: "Freshness"
+      - identifier: monitor_batch1 2
+        parameters:
+          kind: "Completeness"
+      - identifier: monitor_batch1 3
+        parameters:
+          kind: "Duplicates"
+      - identifier: monitor_batch1 4
+        parameters:
+          kind: "FieldUniqueness"
+          field: "siteRdo"
+     
+      

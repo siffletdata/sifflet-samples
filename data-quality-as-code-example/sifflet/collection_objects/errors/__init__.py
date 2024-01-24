@@ -1,0 +1,2 @@
+from .classes import check_data_structure
+from .check_type_and_structure import check_structure_and_type

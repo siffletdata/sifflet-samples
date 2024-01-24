@@ -1,0 +1,12 @@
+kind: Monitor
+version: 1
+name: Team A monitor
+description: Monitors handled by teamA
+incident:
+  severity: High
+  message: test message incident
+parameters:
+  kind: Duplicates
+id: de61d769-06c0-4bdf-b03b-681b724abe49
+datasets:
+- id: 8e231c3c-5629-49a0-9b92-37d5154d3f6b

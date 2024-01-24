@@ -1,0 +1,7 @@
+datasets:
+- dataset: test_dataset
+  monitors:
+  - identifier: test_identifier
+    name: test_name
+    parameters:
+      kind: Freshness

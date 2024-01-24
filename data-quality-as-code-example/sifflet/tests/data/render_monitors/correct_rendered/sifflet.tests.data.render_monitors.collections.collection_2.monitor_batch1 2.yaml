@@ -1,0 +1,12 @@
+version: 1
+kind: Monitor
+name: test monitor
+description: Monitors made with DQAC for test
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: Completeness
+id: 0a879505-7643-41db-9e92-e1b0b5e5c2b0
+datasets:
+- id: c8a95817-c7b3-427a-9350-136438b5df4b

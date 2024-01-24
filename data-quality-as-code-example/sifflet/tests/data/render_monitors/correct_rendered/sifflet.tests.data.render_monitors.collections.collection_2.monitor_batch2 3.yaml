@@ -1,0 +1,12 @@
+version: 1
+kind: Monitor
+name: test monitor
+description: Monitors made with DQAC for test
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: Duplicates
+id: 0ba4bb29-ec37-4769-ab95-3915ca51a87c
+datasets:
+- id: 6a6018c2-63a8-41c8-8f90-fa5f5b1d030c

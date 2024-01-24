@@ -1,0 +1,18 @@
+datasets:
+  - dataset: f260a19c-1665-4351-b237-df9d095a869d
+    monitors:
+      - identifier: monitor 1
+        parameters:
+          kind: "Freshness"
+      - identifier: monitor 2
+        parameters:
+          kind: "Completeness"
+      - identifier: monitor 3
+        incident:
+          severity: High
+        parameters:
+          kind: "Duplicates"
+      - identifier: monitor 4
+        parameters:
+          kind: "FieldUniqueness"
+          field: "basket"

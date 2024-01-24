@@ -1,0 +1,7 @@
+datasets:
+- dataset: fcc34946-9ef5-438f-9473-99ab692cdac7
+  monitors:
+  - identifier: test_identifier
+    name: test_name
+    parameters:
+      kind: Freshness

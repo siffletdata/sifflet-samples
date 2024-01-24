@@ -1,0 +1,12 @@
+kind: Monitor
+version: 1
+name: Team A monitor
+description: Monitors handled by teamA
+incident:
+  severity: Low
+  message: test message incident
+parameters:
+  kind: Freshness
+id: 367316ac-aeb8-4fe3-89fd-083ed77ae339
+datasets:
+- id: 8e231c3c-5629-49a0-9b92-37d5154d3f6b

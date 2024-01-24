@@ -1,0 +1,11 @@
+identifier: {{ identifier}}
+name: {{ name }} 
+parameters:
+    kind: {{ kind }}
+    {% if field %}
+    field: {{ field }}
+    {% endif %}
+    {% if sql %}
+    sql: {{ sql }}
+    {% endif %}
+    

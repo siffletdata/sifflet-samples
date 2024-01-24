@@ -1,0 +1,16 @@
+datasets:
+  - dataset: 6a6018c2-63a8-41c8-8f90-fa5f5b1d030c
+    monitors:
+      - identifier: monitor_batch2 1
+        parameters:
+          kind: "Freshness"
+      - identifier: monitor_batch2 2
+        parameters:
+          kind: "Completeness"
+      - identifier: monitor_batch2 3
+        parameters:
+          kind: "Duplicates"
+      - identifier: monitor_batch2 4
+        parameters:
+          kind: "FieldUniqueness"
+          field: "basketReference"
