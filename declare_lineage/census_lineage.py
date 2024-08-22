@@ -79,8 +79,6 @@ def map_to_json_format(census_data):
     "lineages": []
   }
 
-  print(census_data)
-
   # Add workspace as a source
   workspace_uri = f"census://getcensus.com/workspaces.{WORKSPACE_ID}"
   json_data['sources'].append({
@@ -197,10 +195,6 @@ def main():
   })
 
   send_lineage_data(json_data, sifflet_token, sifflet_tenant)
-
-  # Write to JSON file
-  with open("census_data.json", "w") as outfile:
-    json.dump(json_data, outfile, indent=4)
 
 if __name__ == "__main__":
   main()

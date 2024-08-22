@@ -61,7 +61,6 @@ def get_connector_details(api_key, environment_id, kafka_cluster_id, connector_n
   response = requests.get(url, headers=headers)
 
   if response.status_code == 200:
-#    print(response.json())
     return json.loads(response.text)
   
   else:
@@ -178,6 +177,7 @@ def send_lineage_data(data, access_token, tenant_host):
 
 
 if __name__ == "__main__":
+  
   # Replace with your actual API key, environment ID, and Kafka cluster ID
   api_key = '####'
   api_secret = '####'

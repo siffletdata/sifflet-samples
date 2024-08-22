@@ -299,7 +299,7 @@ def send_lineage_data(data, access_token, tenant_host):
 
 
 
-# Example usage:
+# Example usage: replace with your values
 airbyte_url = "https://api.airbyte.com"
 airbyte_client_id = "####"
 airbyte_client_secret = "####"
